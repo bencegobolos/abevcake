@@ -24,17 +24,6 @@
   }
 </style>
 
-<div id="Menu">
-  <a href="/abevcake/Fejadatok">
-    <div id="Fejadatlink">Új <em>fejadat</em><br> sor generálása.</div>
-  </a>
-  <a href="/abevcake/Teteladatok">
-    <div id="Teteladatlink">Új <em>tételadat</em><br> sor generálása.</div>
-  </a>
-  <a href="/abevcake/Fajlnevek">
-    <div id="Fajlneveklink">Új <em>fájlnév</em><br> generálása.</div>
-  </a>
-</div>
 <div id="TeteladatokHeader" style="margin: 10px 0px 10px">
   <p id="TeteladatokTitle" style="font-size: 26px; text-align: center">Tételadatok</p>
   <p id="TeteladatokDescription" style="text-align: center">Új tételadat sor generálása.</p>

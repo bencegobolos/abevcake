@@ -20,6 +20,27 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <!DOCTYPE html>
 <html>
 <head>
+	<style>
+	  #Menu {
+		background-color: #c9c89a;
+		padding: 10px;
+	  }
+
+	  #Fejadatlink, #Teteladatlink, #Fajlneveklink {
+		padding: 20px;
+		background-color: #e0df9a;
+		width: 150px;
+		text-align: center;
+		margin-bottom: 10px;
+		display: inline-block;
+		text-align: center;
+	  }
+
+	  #Fajlneveklink {
+		float: right;
+	  }
+	</style>
+	
 	<?php echo $this->Html->charset(); ?>
 	<title>
 		<?php echo $cakeDescription ?>:
@@ -43,6 +64,18 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		<div id="content">
 
 			<?php echo $this->Session->flash(); ?>
+
+			<div id="Menu">
+			  <a href="/abevcake/Fejadatok">
+				<div id="Fejadatlink">Új <em>fejadat</em><br> sor generálása.</div>
+			  </a>
+			  <a href="/abevcake/Teteladatok">
+				<div id="Teteladatlink">Új <em>tételadat</em><br> sor generálása.</div>
+			  </a>
+			  <a href="/abevcake/Fajlnevek">
+				<div id="Fajlneveklink">Új <em>fájlnév</em><br> generálása.</div>
+			  </a>
+			</div>
 
 			<?php echo $this->fetch('content'); ?>
 		</div>

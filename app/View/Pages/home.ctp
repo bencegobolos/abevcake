@@ -253,15 +253,4 @@
   }
 </style>
 
-<div id="Menu">
-  <a href="/abevcake/Fejadatok">
-    <div id="Fejadatlink">Új <em>fejadat</em><br> sor generálása.</div>
-  </a>
-  <a href="/abevcake/Teteladatok">
-    <div id="Teteladatlink">Új <em>tételadat</em><br> sor generálása.</div>
-  </a>
-  <a href="/abevcake/Fajlnevek">
-    <div id="Fajlneveklink">Új <em>fájlnév</em><br> generálása.</div>
-  </a>
-</div>
 <p style="font-size: 26px; text-align: center; margin: 60px;">Válassz egy opciót a fenti menüből.</p>
